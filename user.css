@@ -1,0 +1,67 @@
+/*styling the all body with the background image*/
+
+body{
+    background-image: url('pic/pexels-photo-3184454.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed;
+    scroll-behavior: auto;
+    
+}
+/*styling the header with background color*/
+.color1{
+    background-color:#ff6347;
+    background-attachment: inherit;
+
+}
+h1{
+    text-size-adjust:inherit;
+}
+/*styling the footer for both signug and signin*/
+.footer{
+
+    background-color: black;
+    color:whitesmoke;
+    border-radius: 10px;
+    height:35%;
+
+    
+    
+    
+
+}
+/*styling the form area of the user signup*/
+.bg3{
+   background-position-x: center;
+   max-width: fit-content;
+opacity: .8;
+padding: 10% 10% 10% 10%;
+
+    background-color: black;
+    color:whitesmoke;
+    border-radius: 15px;
+    border-color: whitesmoke;
+    border-width: 7px;
+    border-style: inset;
+    
+}
+
+/*styling the log in button in the signup form*/
+input[type=submit],input[type=button] {
+    background-color:tomato;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    
+    cursor: pointer;
+border-radius: 10px;
+  }
+
+  /* OUR ANIMATIONS */
+
+  /* Since this will be our page that will always appear when anyone access our system, 
+     our animations will then suit here well, glowing texts, to attract attention */
+
+
+     

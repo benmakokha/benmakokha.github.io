@@ -1,0 +1,51 @@
+body{
+
+
+    background-size: cover;
+    color: whitesmoke;
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('pic/pexels-photo-3551711.jpeg');
+
+}
+
+
+/*styling the container with the form*/
+.container{
+margin-top: 50px;
+
+    max-width: 50%;
+    height:50%;
+    
+    
+    color:whitesmoke;
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: inset;
+    border-color:whitesmoke;
+
+}
+/*styling the text area of the input*/
+input[type=text], input[type=password] {
+    width: 60%;
+    padding:5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+/*Button styling after inside the form*/
+
+.Button1
+{
+border-radius: 10px;
+    background-color:tomato;
+    width: 70px;
+    height:40px;
+
+}
+.Button1:hover{
+    background-color: black;
+    color:tomato;
+    border-radius: 10px;
+    
+}

@@ -1,0 +1,272 @@
+                 /*BOTH ADMIN(CreateAccount.php) AND USER(signup.php) SIGNUP PAGE STYLINGS */
+/*___________________________________________________________________________*/
+
+/*body styling*/
+
+/* -The whole page styling */
+
+
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+
+  
+  /* Set a style for all buttons */
+  button {
+    background-color:tomato;
+    color: white;
+
+
+    border: none;
+    cursor: pointer;
+
+  }
+  
+  button:hover {
+    opacity:1;
+
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+  }
+
+
+  .continer{
+    margin-left: 30%;
+
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 3% auto 15% auto; /* 3% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%; /* Could be more or less, depending on screen size */
+      
+    padding: 3% 3% 10% 10%; /* added paddind to increase the size of modal content/box */
+
+  }
+  
+
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+
+
+
+
+/* -Admin log-in  Area in the page styling */
+
+
+.lable{
+    margin-left:20%;
+    color:ivory;
+    
+
+  }
+
+input[type=text],input[type=password], select, textarea {
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size-adjust: inherit;
+     margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; 
+    margin-left:20%; 
+    
+  }
+  input[type=submit],input[type=button] {
+    background-color:tomato;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    
+  
+  }
+  input[type=submit]:hover {
+    background-color:grey;
+  }
+  .back{
+    background-color: #888;
+    opacity:.8;
+  }
+  
+  .myfooter{
+
+    background-color: white;
+    width: 100%;
+    /* width: auto; ::: romed....it was conflicting wth the set width */ 
+    height: 20%;      /* height of the footer */
+    border-radius: 10px 10px 0px 0px;   /* curving the upper coners only */
+     margin-top:38%;   /* height from margin-top to where the footer starts */
+    color:black;
+    bottom:0;
+    overflow:hidden;
+	/* position:fixed; */
+   background-size:cover;
+  
+	  
+  }
+
+/* styling tha footer * .....not neccessarily required */
+  #main{
+    height:1500px;
+    margin-top:25px;
+    padding:60px;
+    }
+  
+  #back{
+    background-image: url('pic/pexels-anna-nekrashevich-8533267.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+     background-attachment: fixed;
+     
+      border-radius: 15px;
+
+    
+      
+  }
+    
+  
+  #backimg{
+    background-image: url('pic/pexels-anna-nekrashevich-8533267.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+  
+     
+     
+      border-radius: 15px;
+      height:100%;
+      
+  }
+  #height-bodypage{
+
+    height:1600pt;
+  }
+
+  .login{
+    
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+
+  }
+  .colorr{
+
+      background-color: tomato;
+      border-top: 0px;
+      padding: 20px 20px 15px 15px;
+
+  
+  }
+
+
+/* -Create Account page stylinhg */
+
+
+input[type=text],input[type=password], select, textarea {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size-adjust: inherit;
+    resize: vertical;
+    
+  }
+  input[type=submit],input[type=button] {
+    background-color:tomato;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    
+    cursor: pointer;
+  
+  }
+  input[type=submit]:hover {
+    background-color:grey;
+  }
+
+  .color{
+      background-color: tomato;
+      border-top: 250px;
+      padding: 100%;
+      resize: vertical;
+  }
+
+
+  footer{
+
+    background-color: white;
+    width: 100%;
+    /* width: auto; ::: romed....it was conflicting wth the set width */ 
+    height: 40%;      /* height of the footer */
+    border-radius: 10px 10px 10px 10px;
+     margin-top:90%;   /* height from margin-top to where the footer starts */
+    color:black;
+    bottom:0;
+    overflow:hidden;
+	  /* position:fixed;  */
+
+  
+	  
+  }
+
+
+
+
+
+
+

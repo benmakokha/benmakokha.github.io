@@ -1,0 +1,427 @@
+/*styling the all body with the background image*/
+
+body{
+    background-image: url('pic/pexels-photo-931887.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: fixed;
+    scroll-behavior: auto;
+    max-height:fit-content;
+    
+}
+/*styling the header with background color*/
+.color1{
+    background-color:#ff6347;
+    background-attachment: inherit;
+
+}
+h1{
+    text-size-adjust:inherit;
+
+}
+
+
+/* Styling for the links used in the webpage */
+
+/* a style to control the size of the links used */
+ .mylinks{
+         font-size:35px;
+         color:blue;
+
+
+         
+}
+
+ /* style for the behaviour of the links */
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+/*styling the footer for both signug and signin*/
+.myfooter{
+
+    background-color: #ffffff00;
+    color:black;
+    border-radius: 10px;
+    height:35%;
+
+    
+    
+    
+
+}
+
+/*styling the log in button in the signup form*/
+input[type=submit],input[type=button] {
+    background-color:tomato;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    
+    cursor: pointer;
+border-radius: 10px;
+  }
+
+
+  /* ANIMATION SITE STYLING */
+
+  /* Since its the first page to appear when our web is accessed anytime, our animation will best suit here, 
+      glowing texts to capture attention */
+
+
+      .usebody{
+        background-color:#ffffff49;
+        font-family:cursive;
+        font-size:300%; 
+        padding-top: 30px;
+        padding-bottom:60px;
+        padding-left:40px;
+        padding-right:40px;
+
+
+    }
+    .glow{
+         color:#ffff;
+         text-align:center;
+         -webkit-animation: glow 1s ease-in-out infinite alternate;
+         -moz-animation: glow 1s ease-in-out infinite alternate;
+         animation: glow 0.5s ease-in-out infinite alternate;
+    }
+    @-webkit-keyframes glow{
+        
+        from{
+            text-shadow:0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #e60073,
+            0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+     
+        to{
+            text-shadow: 0 0 20px #ffffff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+            0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+        }
+
+
+        /* styling for product or goods pics used in the page */
+
+        .item1{
+
+          padding-top:40px;
+          padding-bottom:40px;
+          padding-right:40px;
+          padding-left:40px;
+          background-size:contain;
+          background-color:#ffffff67;
+
+
+
+        }
+
+        .item2{
+          
+
+          padding-top:40px;
+          padding-bottom:40px;
+          padding-right:40px;
+          padding-left:40px;
+          background-size:cover;
+          background-color:#ffffff67;
+
+
+
+        }
+
+
+        .item3{
+          
+
+          padding-top:40px;
+          padding-bottom:40px;
+          padding-right:40px;
+          padding-left:40px;
+          background-size:contain;
+          background-color:#ffffff67;
+
+
+
+
+        }
+
+        .item4{
+
+          
+
+          margin-top:5px;
+          margin-bottom:4px;
+          margin-left:10%;
+          background-color:#ffffff67;
+
+
+
+        }  
+
+        /* styling for Drop- Downs in the webpage */
+
+        
+.dropbtn{
+	background-color:red;
+	color:white;
+	padding:35px;
+	font-size:100%;
+	border:2px solid black;
+	text-align:center;
+}
+.dropdown{
+	position:relative;
+	display:inline-block;
+  top:0%;
+  
+}
+.dropdown-content{
+	float:left;
+	display:none;
+	position:absolute;
+	background-color:f1f1f1;
+	min-width:150px;
+	box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}
+.dropdown-content a{
+	color:black;
+	padding:30px;
+	display:block;
+	text-decoration:none;
+}
+.dropdown-content a:hover{
+	background-color:rgba(70,70,70,0.2);
+	color:rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+.dropdown:hover .dropbtn{
+	background-color:green;
+}
+#droping-positions{
+
+  margin-left:30%;
+  margin-right:1px;
+  margin-top:0%;
+  margin-bottom:0%;
+
+}
+  .myheight{
+    color:strong;
+    font-size:130%;
+
+  }
+
+
+  /* styling for Navigations Bars */
+
+  
+.navbar{
+	overflow:hidden;
+	background-color:rgba(90,90,90,0.2);
+	position:fixed;
+	top:0;
+	width:10%;
+	float:right;
+}
+.navbar a{
+	float:left;
+	display:block;
+	color:black;
+	padding:36.6px;
+	text-align:center;
+	text-decoration:none;
+	font-size:150%;
+	width:40%;
+}
+
+.navbar a:hover{
+background-color:rgba(120,120,120,0.2);
+color:rgba(70,70,70,0.2);
+}
+
+/*styling for user Uploads page */
+.myuploads{
+
+  margin-left:5%;
+  
+  
+
+}
+
+.spaning-image{
+
+  margin-left:35%;
+}
+
+
+.column {
+  float:right;
+  width: 63%;
+  margin-top:0%;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.view-button{
+  padding: 3px 3px 5px 5px;
+  background-color:green;
+  font-size:30px;
+  border-radius:2px 2px 2px 2px;
+}
+
+
+/* Styling for search bar */
+
+@import url('https://fonts.googleapis.com/css2?family=poppins');
+*{
+margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'poppins' , sans-serif;
+
+}
+
+
+.wrapper{
+  max-width: 450px;
+  margin:150px auto;
+
+
+}
+
+.search-input{
+  position: relative;
+  background: #fff;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.12);
+
+}
+
+ input{
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size:60px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0,0.1);
+
+
+}
+
+ .icon{
+
+  height: 55px;
+  width: 55px;
+  line-height: 55px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  font-size: 20px;
+  color:blue;
+  cursor:pointer;
+
+
+}
+
+                                                                   
+.autocome-box{
+ /* padding: 10px 8px;   add wen editing  */
+ padding : 0px;
+  max-height: 280px;
+  overflow-y: auto;
+  opacity: 0;      /* comment it to make box visible for edit */
+  pointer-events: none;  /* comment it to make box visible for edit */ 
+   
+
+}
+
+.active{
+
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.outocome-box li{
+
+  list-style : none;
+  padding: 8px 12px;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+  display: none;
+}
+
+.search-input.active .autocome-box{
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+
+}
+
+li{
+  list-style: none;
+  padding: 8px 12px;
+  width: 100%;
+  cursor: default;
+  border-radius:3px;
+  display: none; /* comment it to make box visible for edit  */
+
+}
+
+
+.search-input.active.autocome-box li{
+display: block;
+
+}
+
+
+ li:hover{
+  background: #efefef0e;
+
+}
